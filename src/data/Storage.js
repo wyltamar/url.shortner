@@ -5,7 +5,7 @@ export const Storage = {
     ? JSON.parse(fs.readFileSync('storage.json', 'utf8'))
     : JSON.parse(
         fs.readFileSync(
-          fs.appendFileSync('storage.json', '{ links: []}'),
+          fs.appendFileSync('storage.json', '{ "links": []}'),
           'utf8'
         )
       ),
