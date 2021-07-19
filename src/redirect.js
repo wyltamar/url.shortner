@@ -1,4 +1,4 @@
-import Storage from './data/Storage.js';
+import { Storage } from './data/Storage.js';
 
 export const redirect = (req, res) => {
   const code = req.url.replace(/\//, '');

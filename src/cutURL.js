@@ -1,4 +1,4 @@
-import Storage from './data/Storage.js';
+import { Storage } from './data/Storage.js';
 
 export const cutURL = (req, res) => {
   const urlRegex = /^(https?:\/\/)?[\d\w]+\.[\w]+(\/.*)*/;
